@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="sub-header">
+        <h1>Travelopia</h1>
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Travel</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <i id="toggle-menu" class="fa fa-bars"></i>
+      </div>
+    </header>
+    <main>
+      <div class="image-container">
+        <img src="./assets/pic2.jpg" alt="Sea Image" />
+        <div class="overlay"></div>
+        <div id="content-overlay">
+          <h1 id="title">Welcome to Travelopia</h1>
+          <button id="click-button">Click Here</button>
+        </div>
+        <div id="popup">
+          <div class="popup-content">
+            <h1>Hello, World!</h1>
+            <button onclick="closePopup()">OK</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>© 2024 Travelopia. All rights reserved.</p>
+    </footer>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
