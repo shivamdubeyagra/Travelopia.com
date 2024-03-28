@@ -6,6 +6,7 @@ ToggleMenu.addEventListener("click", () => {
   NavMenu.classList.toggle("showMenu");
 });
 
+
 function openPopup() {
   document.getElementById("popup").style.display = "block";
 }

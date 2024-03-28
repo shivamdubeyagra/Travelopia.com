@@ -52,6 +52,7 @@ main img {
   text-decoration: none;
   font-size: larger;
   font-weight: 500;
+  color: black;
 }
 .navbar li a:hover {
   color: tomato;
@@ -114,6 +115,7 @@ main img {
   color: black;
 }
 #popup {
+  display: none;
   width: 30%;
   position: absolute;
   top: 30%;
