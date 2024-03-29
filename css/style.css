@@ -20,7 +20,7 @@ footer {
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
 }
 main {
   height: calc(100vh - 200px);
@@ -144,8 +144,33 @@ main img {
   background-color: orange;
 }
 #title {
-  font-size: 50px;
+  font-size: 4rem;
 }
+
+@media only screen and (max-width: 1380px) {
+  #title {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1034px) {
+  #title {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 868px) {
+  #title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 689px) {
+  #title {
+    font-size: 1.5rem;
+  }
+}
+
 #click-button {
   padding: 10px;
   border-radius: 10px;
