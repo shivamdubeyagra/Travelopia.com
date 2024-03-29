@@ -140,6 +140,7 @@ main img {
   padding: 10px 20px 10px 20px;
   font-size: larger;
   border: none;
+  border-radius: 5px;
   font-weight: bolder;
   background-color: orange;
 }
